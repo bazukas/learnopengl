@@ -6,7 +6,7 @@ find_package(glfw3 3.3 REQUIRED)
 include_directories(src include)
 
 set(CMAKE_C_FLAGS "${CMAKE_C_FLAGS} -std=gnu99")
-set(CMAKE_CXX_STANDARD 11)
+set(CMAKE_CXX_STANDARD 14)
 set(CMAKE_CXX_STANDARD_REQUIRED true)
 
 set(SOURCES
